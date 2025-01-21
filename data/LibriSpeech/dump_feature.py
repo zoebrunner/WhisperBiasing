@@ -11,7 +11,7 @@ base_output_path = "/disk/data4/zbrunner/whisper_biasing"
 
 # Shared corpus storage
 base_path = "/afs/inf.ed.ac.uk/group/corpora/large4/librispeech/12"
-setname = "train-clean-100"
+setname = "dev-clean"
 tokenizer = whisper.tokenizer.get_tokenizer(True, language="en")
 
 features = {}
