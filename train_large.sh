@@ -1,4 +1,5 @@
-. /home/gs534/rds/hpc-work/work/espnet/tools/anaconda/etc/profile.d/conda.sh && conda deactivate && conda activate espnet
+deactivate 2>/dev/null || true && source /disk/data4/zbrunner/whisper_biasing/espnet/tools/activate_python.sh
+export CUDA_VISIBLE_DEVICES=0  # Use GPU 0
 expdir=finetune_large_librispeech_lr0.0005_KB100_drop0.3
 mkdir -p exp/${expdir}
 python train.py \

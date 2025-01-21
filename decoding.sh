@@ -1,4 +1,4 @@
-. /home/gs534/rds/hpc-work/work/espnet/tools/anaconda/etc/profile.d/conda.sh && conda deactivate && conda activate espnet
+. /disk/data4/zbrunner/whisper_biasing/espnet/tools/venv/bin/activate
 expdir=exp/finetune_librispeech_lr0.0005_KB200_drop0.1
 testset=other
 decodedir=decode_no_lm_b50_KB1000_${testset}_50best
