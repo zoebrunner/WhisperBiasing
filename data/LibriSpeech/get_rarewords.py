@@ -2,7 +2,7 @@ import sys, os
 import json
 
 
-setname = "train_clean_100"
+setname = "test_clean"
 
 with open("{}.json".format(setname)) as fin:
     data = json.load(fin)
