@@ -1,0 +1,168 @@
+nohup: ignoring input
+/disk/data4/zbrunner/WhisperBiasing/whisper/__init__.py:115: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(fp, map_location=device)
+/disk/data4/zbrunner/WhisperBiasing/dataloader.py:32: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  fbank = torch.load(data_path)
+Start of training
+200 / 28539 steps finished in 101.64686632156372 | Loss: 0.11677762961015105 | lr: 0.0005
+400 / 28539 steps finished in 212.24153232574463 | Loss: 0.10510472923517228 | lr: 0.0005
+600 / 28539 steps finished in 325.1265482902527 | Loss: 0.10690409878268838 | lr: 0.0005
+800 / 28539 steps finished in 436.2138502597809 | Loss: 0.09826108396053314 | lr: 0.0005
+1000 / 28539 steps finished in 546.0552957057953 | Loss: 0.10310879280790687 | lr: 0.0005
+1200 / 28539 steps finished in 656.6086294651031 | Loss: 0.08762647320516408 | lr: 0.0005
+1400 / 28539 steps finished in 767.248904466629 | Loss: 0.07775558365508914 | lr: 0.0005
+1600 / 28539 steps finished in 877.7057988643646 | Loss: 0.07257412790786474 | lr: 0.0005
+1800 / 28539 steps finished in 986.9829721450806 | Loss: 0.07385329204611481 | lr: 0.0005
+2000 / 28539 steps finished in 1097.003901720047 | Loss: 0.07628823839128017 | lr: 0.0005
+2200 / 28539 steps finished in 1205.9489562511444 | Loss: 0.07521800760179759 | lr: 0.0005
+2400 / 28539 steps finished in 1316.7595973014832 | Loss: 0.07270213960669934 | lr: 0.0005
+2600 / 28539 steps finished in 1425.12540268898 | Loss: 0.07547090359032155 | lr: 0.0005
+2800 / 28539 steps finished in 1536.0097720623016 | Loss: 0.07081934446468949 | lr: 0.0005
+3000 / 28539 steps finished in 1648.3828301429749 | Loss: 0.07137500622309745 | lr: 0.0005
+3200 / 28539 steps finished in 1759.9955396652222 | Loss: 0.06876066939905286 | lr: 0.0005
+3400 / 28539 steps finished in 1870.3779578208923 | Loss: 0.06899347663857043 | lr: 0.0005
+3600 / 28539 steps finished in 1979.9019207954407 | Loss: 0.07361022868193685 | lr: 0.0005
+3800 / 28539 steps finished in 2089.279555797577 | Loss: 0.06871086486615241 | lr: 0.0005
+4000 / 28539 steps finished in 2198.9725987911224 | Loss: 0.07183272465132177 | lr: 0.0005
+4200 / 28539 steps finished in 2307.837209224701 | Loss: 0.07533278492279351 | lr: 0.0005
+4400 / 28539 steps finished in 2417.869390964508 | Loss: 0.07279220199212431 | lr: 0.0005
+4600 / 28539 steps finished in 2527.1446912288666 | Loss: 0.07471278963144869 | lr: 0.0005
+4800 / 28539 steps finished in 2636.642683506012 | Loss: 0.0743572951387614 | lr: 0.0005
+5000 / 28539 steps finished in 2745.1517567634583 | Loss: 0.07512084110174327 | lr: 0.0005
+5200 / 28539 steps finished in 2854.275207042694 | Loss: 0.07474689457565546 | lr: 0.0005
+5400 / 28539 steps finished in 2963.059597492218 | Loss: 0.07209335987456143 | lr: 0.0005
+5600 / 28539 steps finished in 3072.571270942688 | Loss: 0.07093685621861369 | lr: 0.0005
+5800 / 28539 steps finished in 3181.656817674637 | Loss: 0.07174184607341885 | lr: 0.0005
+6000 / 28539 steps finished in 3290.2056937217712 | Loss: 0.0708136144420132 | lr: 0.0005
+6200 / 28539 steps finished in 3399.755527496338 | Loss: 0.07276378475129604 | lr: 0.0005
+6400 / 28539 steps finished in 3508.435030937195 | Loss: 0.07315358699299396 | lr: 0.0005
+6600 / 28539 steps finished in 3618.0983715057373 | Loss: 0.06850944588892162 | lr: 0.0005
+6800 / 28539 steps finished in 3726.843335390091 | Loss: 0.07617605349048973 | lr: 0.0005
+7000 / 28539 steps finished in 3836.4616305828094 | Loss: 0.07219742885790766 | lr: 0.0005
+7200 / 28539 steps finished in 3951.3262555599213 | Loss: 0.07326358643360437 | lr: 0.0005
+7400 / 28539 steps finished in 4068.6831007003784 | Loss: 0.06661091825924814 | lr: 0.0005
+7600 / 28539 steps finished in 4185.674263238907 | Loss: 0.07199963414110243 | lr: 0.0005
+7800 / 28539 steps finished in 4304.288016796112 | Loss: 0.06957045434042812 | lr: 0.0005
+8000 / 28539 steps finished in 4421.510248422623 | Loss: 0.0732673451770097 | lr: 0.0005
+8200 / 28539 steps finished in 4538.111857652664 | Loss: 0.07198106365278363 | lr: 0.0005
+8400 / 28539 steps finished in 4657.071845769882 | Loss: 0.07432012165896594 | lr: 0.0005
+8600 / 28539 steps finished in 4772.738332033157 | Loss: 0.07340384695678949 | lr: 0.0005
+8800 / 28539 steps finished in 4889.687232971191 | Loss: 0.07274078398011624 | lr: 0.0005
+9000 / 28539 steps finished in 5006.030451059341 | Loss: 0.0767393880803138 | lr: 0.0005
+9200 / 28539 steps finished in 5122.674871444702 | Loss: 0.07075013489462435 | lr: 0.0005
+9400 / 28539 steps finished in 5239.398644685745 | Loss: 0.07031216347590089 | lr: 0.0005
+9600 / 28539 steps finished in 5356.890607595444 | Loss: 0.07201255382038653 | lr: 0.0005
+9800 / 28539 steps finished in 5472.446604251862 | Loss: 0.07271919756196439 | lr: 0.0005
+10000 / 28539 steps finished in 5587.169750452042 | Loss: 0.07462304739281535 | lr: 0.0005
+10200 / 28539 steps finished in 5703.866529941559 | Loss: 0.06726661909371615 | lr: 0.0005
+10400 / 28539 steps finished in 5820.646892547607 | Loss: 0.07009465585462749 | lr: 0.0005
+10600 / 28539 steps finished in 5936.756619691849 | Loss: 0.07014763694256544 | lr: 0.0005
+10800 / 28539 steps finished in 6053.038685083389 | Loss: 0.0691605866048485 | lr: 0.0005
+11000 / 28539 steps finished in 6168.648818969727 | Loss: 0.07596324121579529 | lr: 0.0005
+11200 / 28539 steps finished in 6285.939034461975 | Loss: 0.0737507182918489 | lr: 0.0005
+11400 / 28539 steps finished in 6403.049297809601 | Loss: 0.07305368865840137 | lr: 0.0005
+11600 / 28539 steps finished in 6518.945313215256 | Loss: 0.07220909767784178 | lr: 0.0005
+11800 / 28539 steps finished in 6636.695339679718 | Loss: 0.07173795666545629 | lr: 0.0005
+12000 / 28539 steps finished in 6752.846469402313 | Loss: 0.06987365689128637 | lr: 0.0005
+12200 / 28539 steps finished in 6869.175208330154 | Loss: 0.06877033055759967 | lr: 0.0005
+12400 / 28539 steps finished in 6985.430998802185 | Loss: 0.07689168371260166 | lr: 0.0005
+12600 / 28539 steps finished in 7102.94540309906 | Loss: 0.07093425115570426 | lr: 0.0005
+12800 / 28539 steps finished in 7219.198123693466 | Loss: 0.07378069019876421 | lr: 0.0005
+13000 / 28539 steps finished in 7337.402108669281 | Loss: 0.07128729593008756 | lr: 0.0005
+13200 / 28539 steps finished in 7454.608880996704 | Loss: 0.0700063663162291 | lr: 0.0005
+13400 / 28539 steps finished in 7571.594211339951 | Loss: 0.07034320695325733 | lr: 0.0005
+13600 / 28539 steps finished in 7687.949578762054 | Loss: 0.07003535609692335 | lr: 0.0005
+13800 / 28539 steps finished in 7804.152451992035 | Loss: 0.07273304857313632 | lr: 0.0005
+14000 / 28539 steps finished in 7921.57068157196 | Loss: 0.07012138597667217 | lr: 0.0005
+14200 / 28539 steps finished in 8037.572752714157 | Loss: 0.06959389942698181 | lr: 0.0005
+14400 / 28539 steps finished in 8153.161022186279 | Loss: 0.07032630021683872 | lr: 0.0005
+14600 / 28539 steps finished in 8269.091354370117 | Loss: 0.06737972908653318 | lr: 0.0005
+14800 / 28539 steps finished in 8386.57648229599 | Loss: 0.07190742534585297 | lr: 0.0005
+15000 / 28539 steps finished in 8503.483500480652 | Loss: 0.07328990908339619 | lr: 0.0005
+15200 / 28539 steps finished in 8620.457202196121 | Loss: 0.07048330251127481 | lr: 0.0005
+15400 / 28539 steps finished in 8739.566615819931 | Loss: 0.07291557481512427 | lr: 0.0005
+15600 / 28539 steps finished in 8858.761759757996 | Loss: 0.07321206749416888 | lr: 0.0005
+15800 / 28539 steps finished in 8976.409663438797 | Loss: 0.07192609664984047 | lr: 0.0005
+16000 / 28539 steps finished in 9095.22907423973 | Loss: 0.06968250109814107 | lr: 0.0005
+16200 / 28539 steps finished in 9212.119960784912 | Loss: 0.06986547500826418 | lr: 0.0005
+16400 / 28539 steps finished in 9330.616473674774 | Loss: 0.069816117817536 | lr: 0.0005
+16600 / 28539 steps finished in 9450.303395032883 | Loss: 0.07334677794016897 | lr: 0.0005
+16800 / 28539 steps finished in 9568.768971204758 | Loss: 0.06918818171136082 | lr: 0.0005
+17000 / 28539 steps finished in 9687.689118862152 | Loss: 0.07372686366550624 | lr: 0.0005
+17200 / 28539 steps finished in 9808.69415974617 | Loss: 0.0695125752221793 | lr: 0.0005
+17400 / 28539 steps finished in 9927.426351308823 | Loss: 0.07104242239147425 | lr: 0.0005
+17600 / 28539 steps finished in 10047.605392932892 | Loss: 0.07386673054657876 | lr: 0.0005
+17800 / 28539 steps finished in 10168.90839767456 | Loss: 0.07047031266614795 | lr: 0.0005
+18000 / 28539 steps finished in 10290.205335617065 | Loss: 0.07022372662089765 | lr: 0.0005
+18200 / 28539 steps finished in 10409.24922156334 | Loss: 0.07354547567665577 | lr: 0.0005
+18400 / 28539 steps finished in 10529.62426519394 | Loss: 0.07195765094831585 | lr: 0.0005
+18600 / 28539 steps finished in 10651.539302110672 | Loss: 0.07003629649057984 | lr: 0.0005
+18800 / 28539 steps finished in 10772.575067996979 | Loss: 0.07429544298909604 | lr: 0.0005
+19000 / 28539 steps finished in 10894.0960354805 | Loss: 0.07263433679938316 | lr: 0.0005
+19200 / 28539 steps finished in 11015.885501384735 | Loss: 0.06763051161542535 | lr: 0.0005
+19400 / 28539 steps finished in 11136.860315561295 | Loss: 0.0665496436227113 | lr: 0.0005
+19600 / 28539 steps finished in 11256.418652772903 | Loss: 0.07184776305221022 | lr: 0.0005
+19800 / 28539 steps finished in 11377.051265716553 | Loss: 0.06753554652445018 | lr: 0.0005
+20000 / 28539 steps finished in 11496.791143417358 | Loss: 0.07038286394905299 | lr: 0.0005
+20200 / 28539 steps finished in 11618.817376613617 | Loss: 0.07022451477125287 | lr: 0.0005
+20400 / 28539 steps finished in 11740.398327589035 | Loss: 0.06986663538962602 | lr: 0.0005
+20600 / 28539 steps finished in 11864.371324539185 | Loss: 0.06973558271303773 | lr: 0.0005
+20800 / 28539 steps finished in 11986.602405309677 | Loss: 0.067155147427693 | lr: 0.0005
+21000 / 28539 steps finished in 12108.276067256927 | Loss: 0.06967444780282676 | lr: 0.0005
+21200 / 28539 steps finished in 12229.363953828812 | Loss: 0.07307420936413109 | lr: 0.0005
+21400 / 28539 steps finished in 12351.551710128784 | Loss: 0.06621342443861067 | lr: 0.0005
+21600 / 28539 steps finished in 12471.355276584625 | Loss: 0.07431144881993532 | lr: 0.0005
+21800 / 28539 steps finished in 12592.057245254517 | Loss: 0.07556834363378584 | lr: 0.0005
+22000 / 28539 steps finished in 12711.568655967712 | Loss: 0.07044781121425331 | lr: 0.0005
+22200 / 28539 steps finished in 12832.37012887001 | Loss: 0.07163451628759504 | lr: 0.0005
+22400 / 28539 steps finished in 12952.548399686813 | Loss: 0.07022790339309722 | lr: 0.0005
+22600 / 28539 steps finished in 13073.633597135544 | Loss: 0.06989124340005219 | lr: 0.0005
+22800 / 28539 steps finished in 13194.22982621193 | Loss: 0.07339193844236433 | lr: 0.0005
+23000 / 28539 steps finished in 13315.428071975708 | Loss: 0.06918846880085766 | lr: 0.0005
+23200 / 28539 steps finished in 13436.62999510765 | Loss: 0.06710001754574478 | lr: 0.0005
+23400 / 28539 steps finished in 13554.79970574379 | Loss: 0.07011164612136782 | lr: 0.0005
+23600 / 28539 steps finished in 13674.440927505493 | Loss: 0.06923082882538438 | lr: 0.0005
+23800 / 28539 steps finished in 13795.306474685669 | Loss: 0.06707672278396785 | lr: 0.0005
+24000 / 28539 steps finished in 13913.974514007568 | Loss: 0.07370295439846813 | lr: 0.0005
+24200 / 28539 steps finished in 14032.806823968887 | Loss: 0.06928440389223396 | lr: 0.0005
+24400 / 28539 steps finished in 14152.513689279556 | Loss: 0.07234676175750793 | lr: 0.0005
+24600 / 28539 steps finished in 14271.546598672867 | Loss: 0.07335840131156146 | lr: 0.0005
+24800 / 28539 steps finished in 14389.79889345169 | Loss: 0.07039585483726114 | lr: 0.0005
+25000 / 28539 steps finished in 14507.724129199982 | Loss: 0.06858628795482219 | lr: 0.0005
+25200 / 28539 steps finished in 14625.543870925903 | Loss: 0.06641597820445895 | lr: 0.0005
+25400 / 28539 steps finished in 14744.274550676346 | Loss: 0.06810233565978706 | lr: 0.0005
+25600 / 28539 steps finished in 14861.294681549072 | Loss: 0.06783801874145866 | lr: 0.0005
+25800 / 28539 steps finished in 14979.05297923088 | Loss: 0.06499011586420238 | lr: 0.0005
+26000 / 28539 steps finished in 15096.802428007126 | Loss: 0.06768108675256372 | lr: 0.0005
+26200 / 28539 steps finished in 15214.326716184616 | Loss: 0.06859453202225269 | lr: 0.0005
+26400 / 28539 steps finished in 15333.094975948334 | Loss: 0.06729562015272678 | lr: 0.0005
+26600 / 28539 steps finished in 15451.780278205872 | Loss: 0.06944591137580573 | lr: 0.0005
+26800 / 28539 steps finished in 15568.439130306244 | Loss: 0.06797120382077992 | lr: 0.0005
+27000 / 28539 steps finished in 15687.022462844849 | Loss: 0.06921879937872291 | lr: 0.0005
+27200 / 28539 steps finished in 15805.57329249382 | Loss: 0.06866392895113677 | lr: 0.0005
+27400 / 28539 steps finished in 15923.356174707413 | Loss: 0.06984860377851873 | lr: 0.0005
+27600 / 28539 steps finished in 16040.475972175598 | Loss: 0.06709268793463707 | lr: 0.0005
+27800 / 28539 steps finished in 16158.921511411667 | Loss: 0.06494635000824928 | lr: 0.0005
+28000 / 28539 steps finished in 16275.973135709763 | Loss: 0.0693318354897201 | lr: 0.0005
+28200 / 28539 steps finished in 16393.40646624565 | Loss: 0.06962299191392958 | lr: 0.0005
+28400 / 28539 steps finished in 16510.482094287872 | Loss: 0.06771005478687585 | lr: 0.0005
+Traceback (most recent call last):
+  File "/disk/data4/zbrunner/WhisperBiasing/train.py", line 174, in <module>
+    for idx, data in enumerate(devloader):
+  File "/disk/data4/zbrunner/whisper_biasing/espnet/tools/venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/disk/data4/zbrunner/whisper_biasing/espnet/tools/venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/disk/data4/zbrunner/whisper_biasing/espnet/tools/venv/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/disk/data4/zbrunner/whisper_biasing/espnet/tools/venv/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 52, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/disk/data4/zbrunner/WhisperBiasing/dataloader.py", line 32, in __getitem__
+    fbank = torch.load(data_path)
+  File "/disk/data4/zbrunner/whisper_biasing/espnet/tools/venv/lib/python3.10/site-packages/torch/serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+  File "/disk/data4/zbrunner/whisper_biasing/espnet/tools/venv/lib/python3.10/site-packages/torch/serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/disk/data4/zbrunner/whisper_biasing/espnet/tools/venv/lib/python3.10/site-packages/torch/serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'data/LibriSpeech/dev-other/700/122867/700-122867-0021_fbank.pt'

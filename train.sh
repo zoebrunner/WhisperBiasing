@@ -1,5 +1,6 @@
-. /home/gs534/rds/hpc-work/work/espnet/tools/anaconda/etc/profile.d/conda.sh && conda deactivate && conda activate espnet
-expdir=finetune_librispeech_lr0.0005_KB200_drop0.1_GPThid
+export XDG_CACHE_HOME=/disk/data4/zbrunner/.cache       # ensure cache is not on AFS
+deactivate 2>/dev/null || true && source /disk/data4/zbrunner/whisper_biasing/espnet/tools/activate_python.sh
+export CUDA_VISIBLE_DEVICES=0,1 
 mkdir -p exp/${expdir}
 python train.py \
     --train_json data/LibriSpeech/train_clean_100_f15.json \
